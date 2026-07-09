@@ -152,9 +152,7 @@ The personalized learning framework achieved excellent performance in early seiz
 
 ----
 
-### ## Usage
-
-```markdown
+## Usage
 To run the project:
 
 1. Prepare the ECG dataset.
