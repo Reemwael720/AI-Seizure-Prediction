@@ -1,13 +1,12 @@
-# Early Prediction of Epileptic Seizures
-A machine learning-based system for predicting epileptic seizures before they occur using ECG/ACC signals. The project focuses on signal processing, feature extraction, and building predictive models to detect early warning signs of seizures.
+# AI-Seizure-Prediction
 
+An AI-powered seizure prediction system that analyzes ECG and motion signals to predict epileptic seizures before onset using personalized machine learning models and multimodal fusion.
 
+## Overview
 
+This repository contains the Artificial Intelligence module of the Smart System for Early Prediction of Epileptic Seizures (EPIXA).
 
-
-
-
-
+The AI system processes physiological signals collected from a wearable device, extracts informative biomedical features, and predicts epileptic seizures several minutes before onset. A personalized machine learning approach is adopted, allowing each patient to have an individualized prediction model that captures patient-specific physiological patterns.
 
 
 
