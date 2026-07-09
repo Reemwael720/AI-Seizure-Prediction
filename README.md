@@ -7,6 +7,9 @@ An AI-powered seizure prediction system that analyzes ECG and motion signals to 
 This repository contains the Artificial Intelligence module of the Smart System for Early Prediction of Epileptic Seizures (EPIXA).
 
 The AI system processes physiological signals collected from a wearable device, extracts informative biomedical features, and predicts epileptic seizures several minutes before onset. A personalized machine learning approach is adopted, allowing each patient to have an individualized prediction model that captures patient-specific physiological patterns.
+### AI Workflow
+
+![AI Workflow](Images/WorkFlow.png)
 
 
 
