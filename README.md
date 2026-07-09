@@ -132,12 +132,15 @@ The personalized learning framework achieved excellent performance in early seiz
 | Preictal Recall | **99.58%** |
 | Preictal F1-score | **88.3%** |
 
-📷 **Figure:** Confusion Matrix.
+### Confusion Matrix
 
-📷 **Figure:** ROC Curve.
+<p align="center">
+<img src="https://raw.githubusercontent.com/Reemwael720/AI-Seizure-Prediction/main/Images/Result%20Personalized/Confusion%20Matrix%20under%20Average%20Personalized%20evaluation..jpeg" width="700">
+</p>
 
-📷 **Figure:** Personalized model evaluation results.
-
+<p align="center">
+<b>Figure:</b> Confusion Matrix of the Personalized Random Forest Model.
+</p>
 
 
 
