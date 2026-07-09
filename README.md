@@ -1,12 +1,19 @@
 # AI-Seizure-Prediction
+[![Python](https://img.shields.io/badge/Python-3.10-blue)](https://www.python.org/)
+[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-Random_Forest-orange)](https://scikit-learn.org/)
+[![NeuroKit2](https://img.shields.io/badge/NeuroKit2-ECG_Processing-red)](https://neuropsychology.github.io/NeuroKit/)
+[![MNE](https://img.shields.io/badge/MNE-Biosignal_Analysis-purple)](https://mne.tools/)
+[![Pandas](https://img.shields.io/badge/Pandas-Data_Analysis-150458)](https://pandas.pydata.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-Numerical_Computing-013243)](https://numpy.org/)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-11557C)](https://matplotlib.org/)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-An AI-powered seizure prediction system that analyzes ECG and motion signals to predict epileptic seizures before onset using personalized machine learning models and multimodal fusion.
+## DESCRIPTION
 
-## Overview
+This repository contains the Artificial Intelligence (AI) module of the **Smart System for Early Prediction of Epileptic Seizures (EPIXA)**.
+The AI system analyzes ECG signals acquired from a wearable device to predict epileptic seizures before onset. It combines biomedical signal processing, feature engineering, and personalized machine learning to identify seizure-related patterns from cardiac activity.
+A personalized Random Forest classifier is trained for each patient to improve prediction performance. To further enhance reliability, ECG-based predictions are combined with motion information extracted from accelerometer (ACC) signals using a multimodal fusion strategy.
 
-This repository contains the Artificial Intelligence module of the Smart System for Early Prediction of Epileptic Seizures (EPIXA).
-
-The AI system processes physiological signals collected from a wearable device, extracts informative biomedical features, and predicts epileptic seizures several minutes before onset. A personalized machine learning approach is adopted, allowing each patient to have an individualized prediction model that captures patient-specific physiological patterns.
 ### AI Workflow
 
 ![AI Workflow](Images/WorkFlow.png)
