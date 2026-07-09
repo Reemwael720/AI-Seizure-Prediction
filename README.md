@@ -23,8 +23,7 @@ A personalized Random Forest classifier is trained for each patient to improve p
 
 # Table of Contents
 
-- [Dataset](#dataset)
-- [ECG Preprocessing](#ecg-preprocessing)
+- [Preprocessing](#preprocessing)
 - [Feature Engineering](#feature-engineering)
 - [AI Model](#ai-model)
 - [Multimodal Fusion](#multimodal-fusion)
@@ -33,6 +32,18 @@ A personalized Random Forest classifier is trained for each patient to improve p
 - [Repository Structure](#repository-structure)
 - [Usage](#usage)
 - [Related Repositories](#related-repositories)
+
+--------
+## Preprocessing
+Raw signals undergo several preprocessing steps to improve signal quality before feature extraction. These steps reduce noise, remove unwanted interference, normalize signal amplitude, and segment the recordings into fixed-length windows suitable for machine learning.
+
+The preprocessing pipeline includes:
+
+- Band-pass filtering
+- Notch filtering
+- cleaning
+- Signal normalization
+- Window segmentation
 
 
 
