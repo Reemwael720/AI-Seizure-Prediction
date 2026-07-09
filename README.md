@@ -8,6 +8,7 @@
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-11557C)](https://matplotlib.org/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
+--------
 ## DESCRIPTION
 
 This repository contains the Artificial Intelligence (AI) module of the **Smart System for Early Prediction of Epileptic Seizures (EPIXA)**.
@@ -18,6 +19,19 @@ A personalized Random Forest classifier is trained for each patient to improve p
 
 ![AI Workflow](Images/WorkFlow.png)
 
+--------
+---
+
+## 1) Preprocessing
+
+Each recording undergoes signal preprocessing before feature extraction.
+
+Processing steps include:
+- Band-pass filtering
+- Notch filtering
+- cleaning
+- Signal normalization
+- Window segmentation
 
 
 
