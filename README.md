@@ -20,12 +20,10 @@ A personalized Random Forest classifier is trained for each patient to improve p
 ![AI Workflow](Images/WorkFlow.png)
 
 --------
----
 
 ## 1) Preprocessing
 
 Each recording undergoes signal preprocessing before feature extraction.
-
 Processing steps include:
 - Band-pass filtering
 - Notch filtering
