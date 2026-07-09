@@ -155,10 +155,10 @@ The personalized learning framework achieved excellent performance in early seiz
 ## Usage
 To run the project:
 
-1. Prepare the ECG dataset.
+1. Prepare the dataset.
 2. Install the required dependencies.
 3. Run the preprocessing pipeline.
-4. Extract ECG features.
+4. Extract features.
 5. Train the personalized Random Forest models.
 6. Perform multimodal fusion.
 7. Evaluate model performance.
