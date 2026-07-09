@@ -45,24 +45,26 @@ The preprocessing pipeline includes:
 - Signal normalization
 - Window segmentation
 
-  <table>
+<table>
 <tr>
-<td width="50%">
 
-<img src="https://raw.githubusercontent.com/Reemwael720/AI-Seizure-Prediction/main/Images/Raw%20ECG.png" width="100%"><br>
+<td width="40%">
+
+<img src="https://raw.githubusercontent.com/Reemwael720/AI-Seizure-Prediction/main/Images/Raw%20ECG.png" width="100%">
 <p align="center"><b>Raw ECG Signal</b></p>
 
-<img src="https://raw.githubusercontent.com/Reemwael720/AI-Seizure-Prediction/main/Images/preprocessed%20ECG.png" width="100%"><br>
+<img src="https://raw.githubusercontent.com/Reemwael720/AI-Seizure-Prediction/main/Images/preprocessed%20ECG.png" width="100%">
 <p align="center"><b>Preprocessed ECG Signal</b></p>
 
 </td>
 
-<td width="50%">
+<td width="60%" align="center">
 
-<img src="https://raw.githubusercontent.com/Reemwael720/AI-Seizure-Prediction/main/Images/raw%20and%20preprocessed%20ACC.png" width="100%"><br>
+<img src="https://raw.githubusercontent.com/Reemwael720/AI-Seizure-Prediction/main/Images/raw%20and%20preprocessed%20ACC.png" width="100%">
 <p align="center"><b>Raw and Preprocessed ACC Signal</b></p>
 
 </td>
+
 </tr>
 </table>
 
