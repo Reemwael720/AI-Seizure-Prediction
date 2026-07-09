@@ -91,8 +91,18 @@ Feature selection is independently performed for both ECG and ACC features using
 
 </tr>
 </table>
+---------------------------
+## AI Model
+A personalized Random Forest classifier is employed as the primary prediction model. Instead of training a single global model, an independent model is built for each patient to better capture individual physiological patterns.
 
+Hyperparameter optimization is performed to identify the best model configuration and maximize prediction performance.
 
+| Item | Description |
+|------|-------------|
+| Algorithm | Random Forest |
+| Learning Strategy | Personalized |
+| Optimization | Hyperparameter Tuning |
+| Output | Seizure Prediction |
 
 
 
