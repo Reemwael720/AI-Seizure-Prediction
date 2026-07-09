@@ -76,7 +76,21 @@ For the ECG signal, heart rate (HR), heart rate variability (HRV), and statistic
 
 Feature selection is independently performed for both ECG and ACC features using the **Kruskal–Wallis H-test**, a non-parametric statistical method that compares feature distributions across different physiological states. Features with high H-statistics and statistically significant p-values are selected, retaining the most discriminative cardiac and motion features for seizure prediction while reducing feature redundancy.
 
+<table>
+<tr>
 
+<td align="center" width="50%">
+<img src="https://raw.githubusercontent.com/Reemwael720/AI-Seizure-Prediction/main/Images/Feature%20ECG.png" width="95%"><br>
+<b>ECG Feature Extraction</b>
+</td>
+
+<td align="center" width="50%">
+<img src="https://raw.githubusercontent.com/Reemwael720/AI-Seizure-Prediction/main/Images/Feature%20ACC.png" width="95%"><br>
+<b>ACC Feature Extraction</b>
+</td>
+
+</tr>
+</table>
 
 
 
