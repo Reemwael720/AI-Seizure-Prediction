@@ -23,16 +23,16 @@ A personalized Random Forest classifier is trained for each patient to improve p
 
 # Table of Contents
 
-- Dataset
-- Preprocessing
-- Feature Engineering
-- AI Model
-- Multimodal Fusion
-- Performance Evaluation
-- Results
-- Repository Structure
-- Usage
-
+- [Dataset](#dataset)
+- [ECG Preprocessing](#ecg-preprocessing)
+- [Feature Engineering](#feature-engineering)
+- [AI Model](#ai-model)
+- [Multimodal Fusion](#multimodal-fusion)
+- [Performance Evaluation](#performance-evaluation)
+- [Results](#results)
+- [Repository Structure](#repository-structure)
+- [Usage](#usage)
+- [Related Repositories](#related-repositories)
 
 
 
