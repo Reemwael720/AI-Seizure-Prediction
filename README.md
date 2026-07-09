@@ -34,9 +34,6 @@ A machine learning-based system for predicting epileptic seizures before they oc
 - Project Overview  
   https://github.com/Reemwael720/Smart-System-for-Early-Prediction-of-Epileptic-Seizures-EPIXA-
 
-- AI-Seizure-Prediction  
-  https://github.com/Reemwael720/AI-Seizure-Prediction
-
 - Wearable-Seizure-Detection-Hardware  
   https://github.com/Reemwael720/Wearable-Seizure-Detection-Hardware
 
