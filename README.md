@@ -68,6 +68,14 @@ The preprocessing pipeline includes:
 </tr>
 </table>
 
+------------
+## Feature Engineering
+Meaningful physiological features are extracted from both ECG and accelerometer (ACC) signals to capture cardiac and movement patterns associated with epileptic seizures.
+
+For the ECG signal, heart rate (HR), heart rate variability (HRV), and statistical features are extracted. For the ACC signal, motion-related features describing the patient's physical activity are computed.
+
+Feature selection is independently performed for both ECG and ACC features using the **Kruskal–Wallis H-test**, a non-parametric statistical method that compares feature distributions across different physiological states. Features with high H-statistics and statistically significant p-values are selected, retaining the most discriminative cardiac and motion features for seizure prediction while reducing feature redundancy.
+
 
 
 
