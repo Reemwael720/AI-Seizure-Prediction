@@ -134,14 +134,21 @@ The personalized learning framework achieved excellent performance in early seiz
 
 ### Confusion Matrix
 
-<p align="center">
-<img src="https://raw.githubusercontent.com/Reemwael720/AI-Seizure-Prediction/main/Images/Result%20Personalized/Confusion%20Matrix%20under%20Average%20Personalized%20evaluation..jpeg" width="700">
-</p>
+<table>
+<tr>
 
-<p align="center">
-<b>Figure:</b> Confusion Matrix of the Personalized Random Forest Model.
-</p>
+<td align="center" width="50%">
+<img src="https://raw.githubusercontent.com/Reemwael720/AI-Seizure-Prediction/main/Images/Result%20Personalized/Confusion%20Matrix%20.jpeg" width="100%"><br>
+<b>Confusion Matrix</b>
+</td>
 
+<td align="center" width="50%">
+<img src="https://raw.githubusercontent.com/Reemwael720/AI-Seizure-Prediction/main/Images/Result%20Personalized/Normalize%20Confusion%20Matrix%20.jpeg" width="100%"><br>
+<b>Normalized Confusion Matrix</b>
+</td>
+
+</tr>
+</table>
 
 
 
