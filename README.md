@@ -23,8 +23,8 @@ A personalized Random Forest classifier is trained for each patient to improve p
 
 ## 1) Preprocessing
 
--Each recording undergoes signal preprocessing before feature extraction.
--Processing steps include:
+- Each recording undergoes signal preprocessing before feature extraction.
+- Processing steps include:
 1. Band-pass filtering
 2. Notch filtering
 3. cleaning
